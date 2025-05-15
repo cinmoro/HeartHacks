@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HeartHacks 2025</title>
+        <link rel="icon" type="image/x-icon" href="/img/heart-favi.png">
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+    
+        <!-- navbar [PLACEHOLDER] [ADDED IN UNIT 4] -->
+        <!-- headings
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <header class="header">
+            <div class="navbar">
+                    <button id="theme-button">dark mode</button>
+                    <!-- <a href="#faq">faq</a> -->
+                    <a href="#links">links</a>
+                    <!-- <a href="#events">events</a> -->
+                    <a href="#schedule">schedule</a>
+                    <a href="#about">about</a>
+                    <a href="#hdr">home</a>
+            </div>
+
+            <img id="header-img" src="./img/header-img.png"/>
+            <h2>˚ʚ♡ɞ˚ ୨ৎ a valentine's day hackathon ୨ৎ˚ʚ♡ɞ˚</h2>
+            <div class = "button-container">
+                <button id="body-btn" type="button">Register Now!</button>
+                <button id="body-btn" type="button">View Tracks</button>
+            </div>
+        </header>
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="about"> --- about --- <br> ♡ </h2>
+        <p>Get ready for the coziest, cutest, and most love-filled hackathon of the year! 🐻💻 <br>
+        <br>
+            Join fellow developers, designers, and tech enthusiasts in a 24-hour coding adventure filled with bear hugs and sweets on valentine's day. Over the course of 24 hours, each team will develop 
+            a project from the ground up (You're allowed to create anything you can think of!) and then present their work to a panel of judges to compete for prizes! 
+            <br> <br>
+            Whether you're a coding newbie or a seasoned hacker, there’s something for everyone!</p>
+           <p>Check out our <b style="color:rgb(222, 122, 130);"><a>events</a></b> this year to plan which you will RSVP for! </p> 
+        <h2 id="events">what to expect</h2>
+        <h4>Will you join us and be our beary sweet valentine?</h4>
+        <ul>
+            <li> <b>A Cozy, Themed Hacking Experience:</b> <i>Enjoy a bear-themed, Valentine’s-inspired hackathon with cute decor, plushies, and heartwarming challenges.</i></li>
+            <br>
+            <li> <b>Workshops, Mentorship & Fun Activities:</b> <i>Learn from tech mentors, participate in coding mini-games, and take part in cozy networking events.</i></li>
+            <br>
+            <li> <b>Exciting Prizes & Swag:</b> <i>Compete for unique awards, win adorable bear-themed merch, and take home sweet treats & exclusive hackathon swag!</i></li>
+        </ul>
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="schedule"> --- schedule --- <br> ♡ </h2>
+
+        <!-- <h2 id="workshops">events</h2> -->
+        <!-- <img alt="a cartoon bear and bunny sitting on a couch playing on their electronic devices" src="./img/bears.jpg"/> -->
+        <div class="box">
+            <div class="block-item">
+                <h3>Code-mpatibility - Friday Evening</h3>
+                <img class="event-img" src="./img/bears_all.png"/>
+                <p>Start off with a Valentine’s day inspired team speed dating session to find the ideal teammates. After, we will begin the opening ceremony with a romantic candelit dinner.</p>
+            </div>
+            <div class="block-item">
+                <h3>💘 Bear Hug Debug - Saturday Morning</h3>
+                <img class="event-img" src="./img/NzsipR-P.jpg"/>
+                <p>Enjoy a sweet breakfast and a fun, fast-paced debugging game where teams race to fix broken code. The faster you squash the bugs, the more points you earn! 🐞💻</p>
+            </div>
+            <div class="block-item">
+                <h3>Byte & Create - Saturaday Evening</h3>
+                <img class="event-img" src="./img/VBWwYOvK.jpg"/>
+                <p>Unwind from presentation/demo time with a relaxing creative session! Code pixel art, generate AI valentines, or make adorable bear-themed crafts</p>
+            </div>
+        </div>
+            <h3 style="text-align: center;"> ♡ Create a lovely hacking ambiance by playing the video below ♡ </h3>
+        <div id="vid-container">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/Cihs4n3s7eU?si=H81rvvv8Rcx9ZB_e" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+         
+<!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+    <h2>RSVP</h2>
+    <div class="rsvp-container">
+        <div class="rsvp-para">
+            <p>
+                Missing a cuddle buddy this Valentine’s Day? Don’t fret! 
+                Show us your love and commitment to the hackathon, and 
+                we’ll shower you with adorable swag — including a lovable 
+                teddy bear! 💝 RSVP now to join us in celebrating love, creativity, 
+                and all things code. Let’s make something sweet together! 💻🐻
+            </p>
+        </div>
+        <div class="rsvp-participants">
+            <p>💗 Stacy from Maryland has been struck by cupid.</p>
+            <p>💗 Amy from New York has been struck by cupid.</p>
+            <p>💗 Teresa from Montana has been struck by cupid.</p>
+        </div>
+    </div>
+    <p id="rsvp-count">💘 3 lovers are getting ready to hack into our hearts!</p>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+            <!-- form inputs go here -->
+            <label for="name" >Name:</label>
+            <input type="text" id="name"/>
+            <label for="state" >Home State:</label>
+            <input type="text" id="state" />
+            <label for="email">Email:</label>
+            <input type="text" id="email" />
+            <!-- Submit button -->
+            <button id="rsvp-button" type="submit">Submit RSVP</button>
+        </form>
+    </div>      
+</div>
+
+        <!-- success modal [PLACEHOLDER] [ADDED IN UNIT 9] --> 
+<!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+        <div id="success-modal" class="modal">
+            <div class="modal-container">
+                <div id="modal-item">
+                    <p id="modal-text">
+                        💕 Welcome to Love @ First Byte! 🐻<br><br>
+                    </p>
+                </div>
+                <div id="modal-item">
+                    <img class="modal-img" src="img/welcome-bear.png"/>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- links --> 
+        <h2 id="links"> --- links --- <br> ♡ </h2>
+        <p style="text-align: center;">Here are some helpful links to get you started in your hacking journey!</p>
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <div class="box">
+            <div class="block-item">
+                <a class="block" href="https://code.visualstudio.com/docs/introvideos/basics">
+                    <article>
+                        <h3>VS Code Starter Guide</h3>
+                        <img id="vs-logo" src="https://code.visualstudio.com/assets/images/code-stable.png" alt="Visual Studio Code" style="width: 150px; height: auto;" />
+                        <p>The usual IDE for hacking</p>
+                    </article>
+                </a>
+            </div>
+
+            <div class="block-item">
+            <a class="block" href="https://docs.github.com/en/get-started/start-your-journey/hello-world">
+                <article>
+                    <h3>GitHub Guide</h3>
+                    <img id="gh-logo" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" style="width: 150px; height: auto;" />
+                    <p>Making collaboration easier</p>
+                </article>
+            </a>
+            </div>
+
+            <div class="block-item">
+            <a class="block" href="https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts">
+                <article>
+                    <h3>Figma Tutorial</h3>
+                    <img id="figma-logo"  src="https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&q=75&fit=max&auto=format&dpr=1.5" style="width: 150px; height: auto;"/>
+                    <p>Designing your way into our hearts</p>
+                </article>
+            </a>
+            </div>
+        </div>
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <footer>
+            <p style="text-align: center;">
+                <a>💌 ~ made by C.R.</a>
+            </p>
+        </footer>
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+        <script src="index.js"></script>
+    </body>
+</html>
